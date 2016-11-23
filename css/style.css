@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	clear:both;
+	content: "";
+	display: block;
+}
+
+.block {
+	height: 400px;
+	overflow: auto;	
+}
+
+.tabs,
+.forms {
+	padding:  20px; 
+	background-color: #f4f6f9;
+	border: 1px solid #ddd;
+	width: 500px;	
+	float: left;
+
+}
+
+.forms {
+	float: left;
+	top: 0;
+	margin-left: 20px;
+	position: relative;
+}
+
+li {
+	list-style: none;
+	float: left;
+	padding: 10px 25px;
+	background-color: #d1f2ae;
+}
+
+a {
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+}
+
+.tabs-2,
+.tabs-3{
+	display: none;
+}
+
+.active {
+	background: #79c429;
+	padding: 10px;
+}
+
+
+.name,
+.lastName,
+.address {
+	padding: 10px;
+}
+
+input {
+	float: right;
+	margin-right: 220px;
+}
+
+.tip1,
+.tip2,
+.tip3 {
+	width: 150px;
+	border: 1px solid #a8aaad;
+	position: absolute;
+	left: 300px;
+	display: none;
+}
+
+.tip1 {		
+	top: 30px;
+}
+
+.tip2 {
+	top: 67px;
+}
+
+.tip3 {
+	top: 104px;
+}
+
+
+
+
