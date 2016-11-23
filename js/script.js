@@ -39,20 +39,20 @@ $(document).ready(function () {
 	var $lastName = $('.lastName');
 	var $address = $('.address');
 	
-	$('.name').hover(function() {
-		$('.tip1').fadeIn();
+	$('.name').hover(function() {;
+		$('.tip1').fadeIn({queue : false});
 	}, function(){
 		$('.tip1').fadeOut(1000);
 	});
 	
 	$('.lastName').hover(function() {
-		$('.tip2').fadeIn();
+		$('.tip2').fadeIn({queue : false});
 	}, function(){
 		$('.tip2').fadeOut(1000);
 	});
 	
 	$('.address').hover(function() {
-		$('.tip3').fadeIn();
+		$('.tip3').fadeIn({queue : false});
 	}, function(){
 		$('.tip3').fadeOut(1000);
 	});
